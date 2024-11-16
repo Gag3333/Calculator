@@ -17,7 +17,7 @@ function han() {
 }
 
 function gum() {
-    let t1 = document.getElementById("tiv1").value
-    let t2 = document.getElementById("tiv2").value
-    document.getElementById("pat").innerHTML = t1+t2;
+    let t1 = parseFloat(document.getElementById("tiv1").value);
+    let t2 = parseFloat(document.getElementById("tiv2").value);
+    document.getElementById("pat").innerHTML = t1 + t2;
 }
