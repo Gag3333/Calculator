@@ -32,9 +32,20 @@ let calculator = {
         }
         else if(this.operator == '-')
         {
-            //
+            answer = cur - prev;
         }
 
         this.setInput(answer);
+
+        if (this.operator == '*')
+            {
+                answer = cur * prev;
+            }
+            else if(this.operator == '/')
+                {
+                    answer = prev / cur;
+                }
+        
+            this.setInput(answer);
     }
 };
