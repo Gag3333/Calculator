@@ -33,11 +33,7 @@ let calculator = {
         else if(this.operator == '-')
         {
             answer = cur - prev;
-        }
-
-        this.setInput(answer);
-
-        if (this.operator == '*')
+        }         if (this.operator == '*')
             {
                 answer = cur * prev;
             }
@@ -45,7 +41,7 @@ let calculator = {
                 {
                     answer = prev / cur;
                 }
-        
-            this.setInput(answer);
+
+        this.setInput(answer);
     }
 };
